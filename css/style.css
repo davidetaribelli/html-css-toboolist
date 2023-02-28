@@ -9,8 +9,10 @@ body{
 }
 
 header{
+    width: 100%;
+    height: 100px;
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 50px;
     
 }
 
@@ -59,15 +61,14 @@ header img{
     margin: 0 auto;
 }
 
-.container h3{
+
+.container h4 {
     display: inline-block;
-    margin-left: 5px;
 }
 
 .container span{
     font-weight: 700;
     margin-left: 5px;
-    
 }
 
 .check{
@@ -88,8 +89,9 @@ header img{
     margin-top: 20px;
 }
 
-small{
-    padding: 5px;
+.container h6{
+    display: inline-block;
+    padding: 3px;
     border-radius: 10px;
     color: #FFFFFF;
 }
@@ -115,4 +117,16 @@ small{
 
 .sales{
     background-color: #B0C926;
+}
+
+.new_task{
+    line-height: 2.5;
+}
+
+.today{
+    line-height: 2.5 ;
+}
+
+.upcoming{
+    line-height: 2.5;
 }
