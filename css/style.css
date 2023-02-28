@@ -24,11 +24,11 @@ header img{
 }
 
 .bottoni{
-    margin-top: 20px;
     max-width: 800px;
     height: 50px;
     background-color: #FFFFFF;
     border-radius: 5px;
+    margin: 20px auto 3px auto;
 }
 
 #button{
@@ -48,4 +48,42 @@ header img{
     color:#DCDFE2;
     background-color: #FFFFFF;
     border: 1px #DCDFE2 solid;
+}
+
+.container{
+    background-color: #FFFFFF;
+    max-width: 800px;
+    border-radius: 5px;
+    color: #3C414A;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.container h3{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.container span{
+    font-weight: 700;
+    margin-left: 5px;
+    
+}
+
+.check{
+    border: 1px green solid;
+    border-radius: 50%;
+    color: green;
+    font-weight: 700;
+}
+
+.cross{
+    border: 1px red solid;
+    border-radius: 50%;
+    color: red;
+    font-weight: 700;
+}
+
+.today, .upcoming{
+    margin-top: 20px;
 }
