@@ -16,8 +16,36 @@ header{
 
 header h1{
     display: inline-block;
+    
 }
 
 header img{
     vertical-align: bottom;
+}
+
+.bottoni{
+    margin-top: 20px;
+    max-width: 800px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#button{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.b_color{
+    color: #FFFFFF;
+    background-color: #47ADF1;
+    border: 1px #47ADF1 solid; 
+    margin-left: 30px;
+}
+
+.b_no_color {
+    color:#DCDFE2;
+    background-color: #FFFFFF;
+    border: 1px #DCDFE2 solid;
 }
