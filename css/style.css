@@ -16,12 +16,16 @@ header{
     
 }
 
-header h1{
-    display: inline-block;
-    
+.logo{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-header img{
+header .logo h1{
+    display: inline-block;
+}
+
+header .logo img{
     vertical-align: bottom;
 }
 
